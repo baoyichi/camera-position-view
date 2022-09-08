@@ -23,7 +23,7 @@ export default class Header extends Vue {
   // logoUrl = require('@/assets/logo.png');
   menuList = [
     {
-      value: '/',
+      value: '/travel',
       label: 'travel'
     },
     {
@@ -35,8 +35,6 @@ export default class Header extends Vue {
 </script>
 <style lang="scss" scoped>
 .nav-header {
-  height: 48px;
-  line-height: 48px;
   width: 100%;
 
   .layout-header-wrap {

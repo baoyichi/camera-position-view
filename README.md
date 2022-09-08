@@ -1,5 +1,5 @@
 # camera-position-view
-=======
+
 # vue-cli-demo
 
 ## Project setup
@@ -29,3 +29,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 eslint：https://eslint.bootcss.com/  
 ElementUI：https://element.eleme.io/#/zh-CN/component/installation
 
+### good idea
+hover地图某一个省，大背景显示这个地方的图片

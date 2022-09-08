@@ -1,6 +1,6 @@
 <template>
   <div class="page-warp">
-    <div id="travelChart" style="width: 1900px; height: 1080px"></div>
+    <div id="travelChart" style="width: 1900px; height: 780px"></div>
   </div>
 </template>
 
