@@ -1,14 +1,17 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    redirect: '/travel'
+  },
+  {
+    path: '/travel',
+    name: 'Travel',
+    component: () => import('@/components/travel/travel-page.vue')
   },
   {
     path: '/backstage',

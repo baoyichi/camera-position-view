@@ -1,3 +1,5 @@
+@import 'element-style';
+
 html,
 body,
 #app {
@@ -9,8 +11,11 @@ body,
 #app,
 ul,
 h1 {
-  color: #ffffff;
-  font-family: 'Microsoft YaHei', Arial, Helvetica, 'STHeiti STXihei', Tohoma, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -35,4 +40,12 @@ ul {
 
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: #9c9c9c;
 }
