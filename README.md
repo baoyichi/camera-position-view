@@ -1,6 +1,4 @@
-# camera-position-view
-
-# vue-cli-demo
+# Travel Footprint
 
 ## Project setup
 ```

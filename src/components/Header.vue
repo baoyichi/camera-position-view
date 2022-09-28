@@ -42,7 +42,7 @@ export default class Header extends Vue {
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 68px 48px;
+    padding: 68px 48px 34px;
     //background-color: #fece2f;
 
     .layout-header-logo {
